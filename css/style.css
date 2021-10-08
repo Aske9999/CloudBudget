@@ -122,8 +122,7 @@ display: none;
     height: 100vh;
     padding: 257px 0 0;
     text-align: center;
-    background: url("../images/bg.png");
-    /*background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url("../images/bg.png");*/
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url("../images/bg.png");
 }
 .hero-title{
     font-weight: bold;
