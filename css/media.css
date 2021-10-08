@@ -1,0 +1,334 @@
+@media (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+    .easy-text {
+        max-width: 411px;
+    }
+    .features-card-info{
+        width: 260px;
+    }
+    .logo::before {
+        margin-right: 5px;
+    }
+    .stay-text {
+        max-width: 415px;
+    }
+    .stay-photo-2{
+        left: -22px;
+    }
+    .stay-photo-3{
+        right: -22px;
+    }
+    .name {
+        margin: 0 25px 25px 0;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 992px) {
+    .header-ul {
+        display: none;
+    }
+
+    .header-buttons {
+        display: none;
+    }
+    .burger-button{
+        display: flex;
+    }
+    .mobile-menu{
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #591313;
+        width: 50vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+    }
+    .nav-li{
+        margin: 0 0 15px 0;
+    }
+
+    .hero-title {
+        font-size: 64px;
+    }
+    .hero-content {
+        font-size: 18px;
+    }
+    .easy-title {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .easy-text {
+        max-width: 297px;
+    }
+    .easy-video-box {
+        width: 356px;
+        height: 248px;
+    }
+    .features {
+        padding: 40px 0 200px;
+    }
+    .features-card-info {
+        width: 190px;
+    }
+    .features-card-title {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 10px;
+    }
+    .features-card-text {
+        width: 126px;
+        height: 52px;
+        font-size: 10px;
+    }
+    .technology {
+        padding: 50px 0 90px;}
+    .technology-box {
+        padding: 0 20px 4px;
+        width: 170px;
+        height: 200px;
+    }
+
+    .box-pic {
+        top: 43px;
+    }
+    .secure-pic {
+        top: 52px;
+    }
+    .pdf-pic {
+        top: 50px;
+    }
+    .scv-pic {
+        top: 60px;
+    }
+    .box {
+        font-size: 70px;
+        line-height: 100px;
+    }
+    .stay-text {
+        max-width: 265px;
+    }
+    .stay {
+        padding: 47px 0;
+    }
+
+    .stay-photo-box {
+        width: 327px;
+    }
+
+    .stay-photo-1 {
+        width: 330px;
+        top: 25px
+    }
+    .stay-photo-2 {
+        width: 295px;
+        top:39px;
+    }
+    .stay-photo-3 {
+        width: 295px;
+        top: 39px;
+    }
+
+
+    .contact {
+        padding: 40px 0 30px;
+    }
+    .contact-title {
+        margin-bottom: 30px;
+    }
+    .contact-text {
+        max-width: 333px;
+    }
+    .name {
+        margin: 0 25px 25px 0;
+        padding: 15px 20px;
+    }
+    .surname {
+        padding: 15px 20px;
+    }
+    .number {
+        padding: 15px 20px;
+    }
+    .service {
+        padding: 15px 20px;
+    }
+    footer {
+        padding: 40px 0;
+    }
+    .footer-title {
+        font-size: 13px;
+        margin-bottom: 6px;
+    }
+    .footer-visa-link {
+        max-width: 152px;
+    }
+    .row-box {
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .col-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .easy {
+        padding: 100px 0 95px;
+    }
+    .easy-title {
+        font-size: 24px;
+    }
+    .easy-text {
+        max-width: 511px;
+    }
+    .play-button {
+        top: 96px;
+        left: 325px;
+    }
+    .features-title {
+        font-size: 24px;
+    }
+    .col-4 {
+        width: 100%;
+    }
+    .features-card-text {
+        width: 100%;
+        height: 52px;
+        font-size: 12px;
+    }
+    .features-card-info {
+        width: 360px;
+        height: 165px;
+        bottom: -75px;
+    }
+    .features-card-1 {
+        max-width: 100%;
+    }
+    .features-card-2 {
+        max-width: 100%;
+        margin-top: 100px;
+    }
+    .features-card-3 {
+        max-width: 100%;
+        margin-top: 100px;
+    }
+    .technology-title {
+        font-size: 24px;
+    }
+    .col-3 {
+        width: 50%;
+    }
+    .technology-box {
+        width: 229px;
+    }
+    .stay-title {
+        font-size: 24px;
+    }
+    .stay-text {
+        max-width: 479px;
+    }
+    .stay-photo-box {
+        width: 455px;
+    }
+    .stay-photo-1 {
+        width: 330px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .stay-photo-2 {
+        left: 0;
+    }
+    .stay-photo-3 {
+        right: 0;
+    }
+    .contact-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .footer-title {
+        margin-top: 12px;
+    }
+}
+@media (max-width: 576px) {
+
+    .hero-title {
+        font-size: 44px;
+    }
+}
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 32px;
+    }
+    .easy-video-box {
+        width: 290px;
+    }
+    .easy-video {
+        width: 100%;
+        height: 90%;
+    }
+    .play-button {
+        top: 64px;
+        left: 113px;
+    }
+    .features-card-info {
+        width: 254px;
+    }
+    .col-3 {
+        width: 100%;
+    }
+    .technology-box {
+        width: 100%;
+    }
+    .box-text {
+        max-width: none;
+    }
+    .stay-title {
+        line-height: 29px;
+    }
+    .stay-photo-box {
+        width: 295px;
+        height: 200px;
+    }
+    .stay-photo-1 {
+        width: 229px;
+    }
+    .stay-photo-2 {
+        width: 191px;
+    }
+    .stay-photo-3 {
+        width: 191px;
+    }
+    .name{
+        padding: 12px 15px;
+        font-size: 12px;
+    }
+    .surname{
+        padding: 12px 15px;
+        font-size: 12px;
+    }
+    .number{
+        padding: 12px 15px;
+        font-size: 12px;
+    }
+    .service{
+        padding: 12px 15px;
+        font-size: 12px;
+    }
+    .contact-button{
+        padding: 12px 15px;
+        font-size: 12px;
+    }
+    .footer-visa-link {
+        max-width: 128px;
+    }
+}
